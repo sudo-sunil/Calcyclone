@@ -10,6 +10,10 @@ namespace Calcyclone
     {
         static void Main(string[] args)
         {
+            Addition add = new Addition();
+            Console.WriteLine(add.add(50, 46));
+
+            Console.ReadLine();
         }
     }
 }
