@@ -15,6 +15,7 @@ namespace Calcyclone
             p.div();
             p.add();
             p.sumSquare();
+            p.cube();
             Console.ReadLine();
         }
 
@@ -31,7 +32,6 @@ namespace Calcyclone
             int x = int.Parse(Console.ReadLine());
             Console.WriteLine("Enter 2nd no:");
             int y = int.Parse(Console.ReadLine());
-
             int result = x / y;
             Console.WriteLine("Div: " + result);
 
@@ -43,7 +43,6 @@ namespace Calcyclone
             int x = int.Parse(Console.ReadLine());
             Console.WriteLine("Enter 2nd no:");
             int y = int.Parse(Console.ReadLine());
-
             int result = x + y;
             Console.WriteLine("Add: " + result);
         }
@@ -54,9 +53,7 @@ namespace Calcyclone
             int x = int.Parse(Console.ReadLine());
             Console.WriteLine("Enter 2nd no:");
             int y = int.Parse(Console.ReadLine());
-
             int result = x * y;
-
             Console.WriteLine("Add: " + result);
 
         }
@@ -66,11 +63,16 @@ namespace Calcyclone
             int x = int.Parse(Console.ReadLine());
             Console.WriteLine("Enter 2nd no:");
             int y = int.Parse(Console.ReadLine());
-
             int result = (x * x) + (y * y);
-
             Console.WriteLine("Add: " + result);
 
+        }
+
+        public void cube()
+        {
+            Console.WriteLine("Enter a number to be cubed:");
+            int x = int.Parse(Console.ReadLine());
+            Console.WriteLine("Cube of the number is : {0}",x*x*x);
         }
     }
 }
