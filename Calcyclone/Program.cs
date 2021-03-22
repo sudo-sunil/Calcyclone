@@ -13,6 +13,7 @@ namespace Calcyclone
             Program p = new Program();
             p.sub();
             p.div();
+            p.add();
             Console.ReadLine();
         }
 
@@ -33,6 +34,17 @@ namespace Calcyclone
             int result = x / y;
             Console.WriteLine("Div: " + result);
 
+        }
+
+        public void add()
+        {
+            Console.WriteLine("Enter 1st no:");
+            int x = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter 2nd no:");
+            int y = int.Parse(Console.ReadLine());
+
+            int result = x + y;
+            Console.WriteLine("Add: " + result);
         }
 
     }
