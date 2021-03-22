@@ -10,6 +10,15 @@ namespace Calcyclone
     {
         static void Main(string[] args)
         {
+            Program p = new Program();
+            p.add(45.6f, 54.7f);
+
+            Console.ReadLine();
+
+        }
+        public void add(float x, float y)
+        {
+            Console.WriteLine("Addition is : "+(x+y));
         }
     }
 }
