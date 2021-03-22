@@ -14,6 +14,7 @@ namespace Calcyclone
             p.sub();
             p.div();
             p.add();
+            p.sumSquare();
             Console.ReadLine();
         }
 
@@ -55,8 +56,21 @@ namespace Calcyclone
             int y = int.Parse(Console.ReadLine());
 
             int result = x * y;
-            Console.WriteLine("Add: " + result);
-        }
 
+            Console.WriteLine("Add: " + result);
+
+        }
+        public void sumSquare()
+        {
+            Console.WriteLine("Enter 1st no:");
+            int x = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter 2nd no:");
+            int y = int.Parse(Console.ReadLine());
+
+            int result = (x * x) + (y * y);
+
+            Console.WriteLine("Add: " + result);
+
+        }
     }
 }
