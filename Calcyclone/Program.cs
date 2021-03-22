@@ -47,5 +47,16 @@ namespace Calcyclone
             Console.WriteLine("Add: " + result);
         }
 
+        public void mul()
+        {
+            Console.WriteLine("Enter 1st no:");
+            int x = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter 2nd no:");
+            int y = int.Parse(Console.ReadLine());
+
+            int result = x * y;
+            Console.WriteLine("Add: " + result);
+        }
+
     }
 }
