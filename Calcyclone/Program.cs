@@ -15,6 +15,7 @@ namespace Calcyclone
             Console.WriteLine("Jenkins integration !");
             Console.WriteLine("Testing CI/CD !");
             Console.WriteLine("Testing 2 !");
+            Console.WriteLine("USing Asure Devops !");
             p.sub();
             p.div();
             p.add();
