@@ -20,6 +20,7 @@ namespace Calcyclone
             p.cube();
             p.square();
             p.demo();
+            p.Hola();
             Console.ReadLine();
         }
         public void hello()
@@ -91,6 +92,10 @@ namespace Calcyclone
         public void demo()
         {
             Console.WriteLine("First Demo CI CD in Jenkins");
+        }
+        public void Hola()
+        {
+            Console.WriteLine("Hello in Spanish");
         }
     }
 }
