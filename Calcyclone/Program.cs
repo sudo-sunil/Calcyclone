@@ -11,6 +11,7 @@ namespace Calcyclone
         public static void Main(string[] args)
         {
             Program p = new Program();
+            p.hello();
             Console.WriteLine("Jenkins integration !");
             p.sub();
             p.div();
@@ -19,6 +20,10 @@ namespace Calcyclone
             p.cube();
             p.square();
             Console.ReadLine();
+        }
+        public void hello()
+        {
+            Console.WriteLine("Somethings fishy...");
         }
 
         public void sub()
