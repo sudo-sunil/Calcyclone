@@ -18,6 +18,7 @@ namespace Calcyclone
             p.add();
             p.sumSquare();
             p.cube();
+            p.square();
             p.demo();
             Console.ReadLine();
         }
@@ -80,6 +81,12 @@ namespace Calcyclone
             Console.WriteLine("Enter a number to be cubed:");
             int x = int.Parse(Console.ReadLine());
             Console.WriteLine("Cube of the number is : {0}",x*x*x);
+        }
+        public void square()
+        {
+            Console.WriteLine("Enter a number to be squared:");
+            int x = int.Parse(Console.ReadLine());
+            Console.WriteLine("Cube of the number is : {0}", x * x );
         }
         public void demo()
         {
