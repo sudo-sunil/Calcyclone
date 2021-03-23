@@ -15,6 +15,7 @@ namespace Calcyclone
             Console.WriteLine("Jenkins integration !");
             Console.WriteLine("Testing CI/CD !");
             Console.WriteLine("Testing 2 !");
+            p.Azure();
             p.sub();
             p.div();
             p.add();
@@ -105,6 +106,10 @@ namespace Calcyclone
         {
             Console.WriteLine("We won,Mission Accomplished");
 
+        }
+        public void Azure()
+        {
+            Console.WriteLine("Azure Devops Testing.....");
         }
 
 
