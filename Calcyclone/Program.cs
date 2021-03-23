@@ -18,6 +18,9 @@ namespace Calcyclone
             p.add();
             p.sumSquare();
             p.cube();
+            p.square();
+            p.demo();
+            p.Hola();
             Console.ReadLine();
         }
         public void hello()
@@ -79,6 +82,20 @@ namespace Calcyclone
             Console.WriteLine("Enter a number to be cubed:");
             int x = int.Parse(Console.ReadLine());
             Console.WriteLine("Cube of the number is : {0}",x*x*x);
+        }
+        public void square()
+        {
+            Console.WriteLine("Enter a number to be squared:");
+            int x = int.Parse(Console.ReadLine());
+            Console.WriteLine("Cube of the number is : {0}", x * x );
+        }
+        public void demo()
+        {
+            Console.WriteLine("First Demo CI CD in Jenkins");
+        }
+        public void Hola()
+        {
+            Console.WriteLine("Hello in Spanish");
         }
     }
 }
