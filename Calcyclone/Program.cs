@@ -11,10 +11,16 @@ namespace Calcyclone
         public static void Main(string[] args)
         {
             Program p = new Program();
+            p.hello();
             p.sub();
             p.div();
             p.add();
+
             Console.ReadLine();
+        }
+        public void hello()
+        {
+            Console.WriteLine("Somethings fishy...");
         }
 
         public void sub()
