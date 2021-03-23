@@ -21,6 +21,7 @@ namespace Calcyclone
             p.square();
             p.demo();
             p.Hola();
+            p.ProjectPpt();
             Console.ReadLine();
         }
         public void hello()
@@ -97,5 +98,14 @@ namespace Calcyclone
         {
             Console.WriteLine("Hello in Spanish");
         }
+
+        public void ProjectPpt()
+        {
+            Console.WriteLine("We won,Mission Accomplished");
+
+        }
+
+
+
     }
 }
