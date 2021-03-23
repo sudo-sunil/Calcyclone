@@ -22,7 +22,7 @@ namespace Calcyclone
         }
         public void hello()
         {
-            Console.WriteLine("Somethings fishy...");
+            Console.WriteLine("Somethings fishy... is happening after every hour");
         }
 
         public void sub()
