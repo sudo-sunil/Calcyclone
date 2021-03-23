@@ -11,6 +11,7 @@ namespace Calcyclone
         public static void Main(string[] args)
         {
             Program p = new Program();
+            Console.WriteLine("Jenkins integration !");
             p.sub();
             p.div();
             p.add();
