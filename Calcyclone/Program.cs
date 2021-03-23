@@ -16,6 +16,7 @@ namespace Calcyclone
             Console.WriteLine("Testing CI/CD !");
             Console.WriteLine("Testing 2 !");
             p.Azure();
+            Console.WriteLine("USing Asure Devops !");
             p.sub();
             p.div();
             p.add();
