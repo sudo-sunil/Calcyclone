@@ -13,6 +13,7 @@ namespace Calcyclone
             Program p = new Program();
             p.hello();
             Console.WriteLine("Jenkins integration !");
+            Console.WriteLine("Testing CI/CD !");
             p.sub();
             p.div();
             p.add();
