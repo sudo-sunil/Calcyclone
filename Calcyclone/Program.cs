@@ -13,6 +13,8 @@ namespace Calcyclone
             Program p = new Program();
             p.hello();
             Console.WriteLine("Jenkins integration !");
+            Console.WriteLine("Testing CI/CD !");
+            Console.WriteLine("Testing 2 !");
             p.sub();
             p.div();
             p.add();
@@ -26,7 +28,7 @@ namespace Calcyclone
         }
         public void hello()
         {
-            Console.WriteLine("Somethings fishy...");
+            Console.WriteLine("Somethings fishy... is happening after every hour");
         }
 
         public void sub()
