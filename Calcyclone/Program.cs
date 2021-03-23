@@ -14,6 +14,7 @@ namespace Calcyclone
             p.hello();
             Console.WriteLine("Jenkins integration !");
             Console.WriteLine("Testing CI/CD !");
+            Console.WriteLine("Testing 2 !");
             p.sub();
             p.div();
             p.add();
